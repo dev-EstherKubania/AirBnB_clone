@@ -1,19 +1,17 @@
 /* styles/8-places.css */
 
 .place {
-    position: relative;
-    width: 33.33%;
+    width: 50%;
     box-sizing: border-box;
     margin: 20px 0;
     padding: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
-    text-align: center;
+    text-align: left;
 }
 
 .place h2 {
     font-size: 30px;
-    text-align: left;
     margin-bottom: 10px;
 }
 
@@ -27,9 +25,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 20px;
-    right: 20px;
 }
 
 .information {
@@ -62,4 +57,10 @@
 
 .user strong {
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .place {
+        width: 100%;
+    }
 }
