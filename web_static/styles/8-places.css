@@ -1,24 +1,14 @@
-.places {
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap; /* Added to allow flex items to wrap */
-    justify-content: center; /* Center items horizontally */
-}
-
-.places h1 {
-    font-size: 30px;
-}
+/* styles/8-places.css */
 
 .place {
-    width: 390px;
+    position: relative;
+    width: 33.33%;
+    box-sizing: border-box;
+    margin: 20px 0;
     padding: 20px;
-    margin: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
-    position: relative;
-    display: flex;
-    flex-direction: column; /* Added to stack elements vertically */
-    justify-content: space-between; /* Added to space elements vertically */
+    text-align: center;
 }
 
 .place h2 {
@@ -37,7 +27,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .information {
@@ -56,9 +48,7 @@
     align-items: center;
 }
 
-.icon_group,
-.icon_bed,
-.icon_bath {
+.icon {
     width: 20px;
     height: 20px;
     background-color: #FF5A5F;
