@@ -23,7 +23,7 @@
 
 .price_by_night {
     position: absolute;
-    top: 0;
+    top: 40px;
     bottom: 0;
     right: 20px;
     min-width: 60px;
