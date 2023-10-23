@@ -1,11 +1,15 @@
+.filters {
+    /* Your filter styles here */
+}
+
 .places {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; /* Center places within the container */
 }
 
 .place {
-    width: calc(33.33% - 20px);
+    width: 33.33%;
     box-sizing: border-box;
     margin: 20px 0;
     padding: 20px;
