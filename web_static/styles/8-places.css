@@ -1,11 +1,11 @@
 .places {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center places within the container */
+    justify-content: space-between;
 }
 
 .place {
-    width: 33.33%;
+    width: calc(33.33% - 20px);
     box-sizing: border-box;
     margin: 20px 0;
     padding: 20px;
