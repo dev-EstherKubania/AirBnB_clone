@@ -1,5 +1,3 @@
-/* styles/8-places.css */
-
 .places {
     display: flex;
     flex-wrap: wrap;
@@ -7,8 +5,9 @@
 }
 
 .place {
-    width: 30%; /* Adjust width as needed */
-    margin: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 20px 0;
     padding: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
@@ -18,16 +17,14 @@
 
 .place h2 {
     font-size: 30px;
-    margin-top: 0;
 }
 
 .price_by_night {
     position: absolute;
     top: 20px;
-    bottom: 20px;
     right: 20px;
     min-width: 60px;
-    height: 40px;
+    height: 60px;
     font-size: 30px;
     color: #FF5A5F;
     border: 4px solid #FF5A5F;
@@ -45,18 +42,21 @@
     padding: 10px 0;
 }
 
-.max_guest, .number_rooms, .number_bathrooms {
+.max_guest,
+.number_rooms,
+.number_bathrooms {
     width: 100px;
     display: flex;
     align-items: center;
 }
 
-.icon_group, .icon_bed, .icon_bath {
+.icon {
     width: 20px;
     height: 20px;
     background-color: #FF5A5F;
     margin-right: 10px;
 }
+
 .icon_bed::before {
     content: "🛏️";
 }
@@ -68,12 +68,12 @@
 .icon_group::before {
     content: "👥";
 }
-.user, .description {
+
+.user,
+.description {
     margin-top: 10px;
 }
 
 .user strong {
     font-weight: bold;
 }
-
-/* Additional styles for places if needed */
