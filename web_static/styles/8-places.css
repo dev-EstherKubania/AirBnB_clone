@@ -1,21 +1,30 @@
 /* styles/8-places.css */
 
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .place {
-    width: 50%;
-    box-sizing: border-box;
-    margin: 20px 0;
+    width: 30%; /* Adjust width as needed */
+    margin: 20px;
     padding: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
-    text-align: left;
+    position: relative;
+    text-align: center;
 }
 
 .place h2 {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-top: 0;
 }
 
 .price_by_night {
+    position: absolute;
+    top: 20px;
+    right: 20px;
     min-width: 60px;
     height: 60px;
     font-size: 30px;
@@ -35,23 +44,20 @@
     padding: 10px 0;
 }
 
-.max_guest,
-.number_rooms,
-.number_bathrooms {
+.max_guest, .number_rooms, .number_bathrooms {
     width: 100px;
     display: flex;
     align-items: center;
 }
 
-.icon {
+.icon_group, .icon_bed, .icon_bath {
     width: 20px;
     height: 20px;
     background-color: #FF5A5F;
     margin-right: 10px;
 }
 
-.user,
-.description {
+.user, .description {
     margin-top: 10px;
 }
 
@@ -59,8 +65,4 @@
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    .place {
-        width: 100%;
-    }
-}
+/* Additional styles for places if needed */
