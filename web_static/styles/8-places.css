@@ -1,14 +1,19 @@
+/* styles/8-places.css */
+
 .places {
     margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+}
+
+.places h1 {
+    font-size: 30px;
 }
 
 .place {
-    width: calc(33.33% - 40px); /* Adjust as needed */
-    margin-bottom: 30px;
-    box-sizing: border-box;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
     position: relative;
 }
 
@@ -48,7 +53,9 @@
     align-items: center;
 }
 
-.icon {
+.icon_group,
+.icon_bed,
+.icon_bath {
     width: 20px;
     height: 20px;
     background-color: #FF5A5F;
@@ -62,11 +69,4 @@
 
 .user strong {
     font-weight: bold;
-}
-
-/* Added new styles for room details */
-.rooms {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
 }
