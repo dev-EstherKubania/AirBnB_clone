@@ -1,13 +1,11 @@
-footer {
-    background-color: #000;
-    color: white;
+.footer {
+    background-color: #FFFFFF; /* Set background color to white */
     height: 60px;
     width: 100%;
-    border-top: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC; /* Add a 1px top border with color #CCCCCC */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     position: fixed;
     bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
