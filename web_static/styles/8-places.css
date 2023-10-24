@@ -3,7 +3,7 @@
 .places {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: space-around;
 }
 .places h1 {
     width: 100%;
