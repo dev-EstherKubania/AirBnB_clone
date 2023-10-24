@@ -5,6 +5,11 @@
     flex-wrap: wrap;
     justify-content: left;
 }
+.places h1 {
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+}
 
 .place {
     width: 30%; /* Adjust width as needed */
