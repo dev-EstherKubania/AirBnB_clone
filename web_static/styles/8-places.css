@@ -57,6 +57,18 @@
     margin-right: 10px;
 }
 
+.icon_bed::before {
+    content: "🛏️";
+}
+
+.icon_bath::before {
+    content: "🚿";
+}
+
+.icon_group::before {
+    content: "👥";
+}
+
 .user, .description {
     margin-top: 10px;
 }
