@@ -6,6 +6,4 @@
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    position: fixed;
-    bottom: 0;
 }
